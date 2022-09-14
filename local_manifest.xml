@@ -2,6 +2,7 @@
 <manifest>
         <remote name="5z-devs" fetch="https://github.com/5z-devs" />
     	<remote name="kernel" fetch="https://github.com/bluehomewu" />
+        <remote name="vendor" fetch="https://github.com/yograjfire18"/>
     
     	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="github" revision="lineage-19.1" />
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="12" />
