@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <remote name="JuanTamadski" fetch="https://github.com/JuanTamadski" />
+        <remote name="yogi" fetch="https://github.com/yograjfire18" />
     	<remote name="kernel" fetch="https://github.com/bluehomewu" />
     
     	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="JuanTamadski" revision="aicp" />
