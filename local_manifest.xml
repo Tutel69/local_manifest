@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!-- Remotes -->
+  <!-- Remotes -->
  <remote name="GalaxyA50" fetch="https://github.com/Galaxya50" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ <remote name="victor" fetch="https://github.com/victor4cris" />
  <remote name="data" fetch="https://github.com/DT-Archive-Samsung-A50" />
- <remote name="Juan" fetch="https://github.com/Juantamadski" />
- <remote name="cringe" fetch="https://github.com/GiovanYCringe" />
- 
+
  <!-- Common Device Tree repos -->
- <project path="device/samsung/a50-common" name="device_samsung_cringe-common" remote="cringe" revision="13" clone-depth="1" />
- <project path="kernel/samsung/a50-common" name="android_kernel_samsung_a50-common" remote="GalaxyA50" revision="android-12.0" clone-depth="1" />
- <project path="vendor/samsung/a50-common" name="vendor_samsung_cringe-common" remote="cringe" revision="13" clone-depth="1" />
+ <project path="device/samsung/a50-common" name="android_device_samsung_a50-common" remote="GalaxyA50" revision="lineage-19.1" clone-depth="1" />
+ <project path="kernel/samsung/a50-common" name="android_kernel_samsung_a50-common" remote="victor" revision="master" clone-depth="1" />
+ <project path="vendor/samsung/a50-common" name="android_vendor_samsung_a50-common" remote="GalaxyA50" revision="android-12.0" clone-depth="1" />
  <project path="hardware/samsung" name="android_hardware_samsung" remote="GalaxyA50" revision="android-12.0" />
- 
+
  <!-- Non-NFC -->
- <project path="device/samsung/a505f" name="device_samsung_cringe" remote="Juan" revision="13" clone-depth="1" />
- <project path="vendor/samsung/a505f" name="android_vendor_samsung_cringe" remote="cringe" revision="13" clone-depth="1" />
- 
+ <project path="device/samsung/a505f" name="android_device_samsung_a505f" remote="GalaxyA50" revision="lineage-19.0" clone-depth="1" />
+ <project path="vendor/samsung/a505f" name="android_vendor_samsung_a505f" remote="GalaxyA50" revision="android-12.0" clone-depth="1" />
+
  <!-- Dependencies -->
  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="LineageOS" revision="lineage-19.0" clone-depth="1" />
  <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="LineageOS" revision="lineage-19.0" clone-depth="1" />
