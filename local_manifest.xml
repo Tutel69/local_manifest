@@ -3,7 +3,6 @@
   <!-- Remotes -->
  <remote name="GalaxyA50" fetch="https://github.com/Galaxya50" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- <remote name="data" fetch="https://github.com/DT-Archive-Samsung-A50" />
  <remote name="Tutel" fetch="https://github.com/Tutel69" />
 
  <!-- Common Device Tree repos -->
