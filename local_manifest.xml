@@ -3,7 +3,7 @@
   <!-- Remotes -->
  <remote name="GalaxyA50" fetch="https://github.com/Galaxya50" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- <remote name="Tutel" fetch="https://github.com/Tutel69" />
+ <remote name="Tutel" fetch="https://github.com/shizura21" />
 
  <!-- Common Device Tree repos -->
  <project path="device/samsung/a50-common" name="android_device_samsung_a50-common" remote="GalaxyA50" revision="lineage-19.1" clone-depth="1" />
